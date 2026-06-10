@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Research map</title>
+  <desc id="desc">A compact diagram connecting quantum information, codes, decoders, and causal models.</desc>
+  <rect width="720" height="520" fill="#ffffff"/>
+  <g fill="none" stroke="#d9e0dd" stroke-width="2">
+    <path d="M188 152 C278 88 396 86 506 152"/>
+    <path d="M188 368 C278 432 396 434 506 368"/>
+    <path d="M172 178 C118 238 118 284 172 342"/>
+    <path d="M522 178 C586 240 586 280 522 342"/>
+    <path d="M224 260 H496"/>
+    <path d="M360 140 V380"/>
+  </g>
+  <g>
+    <circle cx="360" cy="260" r="72" fill="#eef3f1" stroke="#0f766e" stroke-width="4"/>
+    <text x="360" y="244" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#1f2428">Quantum</text>
+    <text x="360" y="273" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#1f2428">Information</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect x="46" y="106" width="196" height="92" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+      <text x="144" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2428">QEC / FTQC</text>
+      <text x="144" y="171" text-anchor="middle" font-size="14" fill="#5d6770">circuits and noise</text>
+    </g>
+    <g>
+      <rect x="478" y="106" width="196" height="92" rx="8" fill="#ffffff" stroke="#6d3f6e" stroke-width="3"/>
+      <text x="576" y="143" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2428">Causal Models</text>
+      <text x="576" y="171" text-anchor="middle" font-size="14" fill="#5d6770">process structure</text>
+    </g>
+    <g>
+      <rect x="46" y="322" width="196" height="92" rx="8" fill="#ffffff" stroke="#b45f06" stroke-width="3"/>
+      <text x="144" y="359" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2428">qLDPC / qLTC</text>
+      <text x="144" y="387" text-anchor="middle" font-size="14" fill="#5d6770">complexes and expansion</text>
+    </g>
+    <g>
+      <rect x="478" y="322" width="196" height="92" rx="8" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+      <text x="576" y="359" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2428">Decoders</text>
+      <text x="576" y="387" text-anchor="middle" font-size="14" fill="#5d6770">BP, OSD, simulation</text>
+    </g>
+  </g>
+  <g fill="#0f766e">
+    <circle cx="270" cy="260" r="5"/>
+    <circle cx="450" cy="260" r="5"/>
+    <circle cx="360" cy="170" r="5"/>
+    <circle cx="360" cy="350" r="5"/>
+  </g>
+</svg>
